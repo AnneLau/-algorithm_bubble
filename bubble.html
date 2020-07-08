@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function swap(arr, i, j) {
+            let temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+            return arr;
+        }
+        Array.prototype.bubble = function () {
+            let _this = this,
+                flag = false;
+            for (let i = 0; i < _this.length - 1; i++) {
+                for (let j = 0; j < _this.length - 1 - i; j++) {
+                    if (_this[j] > _this[j + 1]) {
+                        swap(_this, j, j + 1);
+
+                        console.log(flag,'00000')
+                        flag = true;
+                    }
+                }
+                console.log(flag,'1111111')
+                if (!flag) {
+                    break
+                }
+                flag = false;
+                console.log(flag,'2222222')
+            }
+            return _this;
+        }
+
+        // let arr = [1, 2, 3, 6, 7];
+        // let arr = [1, 2, 3, 7, 6];
+        let arr = [12, 8, 24, 16, 1];SVGFEGaussianBlurElement
+        arr.bubble();
+        console.log(arr);
+    </script>
+</body>
+
+</html>
