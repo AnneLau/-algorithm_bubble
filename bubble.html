@@ -10,20 +10,28 @@
 <body>
     <script>
         function swap(arr, i, j) {
+            //temp相当于一个空瓶子
             let temp = arr[i];
             arr[i] = arr[j];
             arr[j] = temp;
             return arr;
         }
+        //添加到数组的实例上
         Array.prototype.bubble = function () {
             let _this = this,
-                flag = false;
+                flag = false; //代码优化   [1,2,3,4,5]
+            //外层循环控制比较的轮数（每一轮之后，都会多选出一个最大值）
             for (let i = 0; i < _this.length - 1; i++) {
+                //里层循环控制每一轮比较的次数
+                //每一轮比较的时候，不用给自己比较，所以_this.length - 1
+                //每比较过一轮，就会选出一个最大的值，当前是第几轮，设为n,就是已经选出了几个最大值，所以，下一轮比较的时候，就少比较n次j 
+                //_this.length - 1 - i
                 for (let j = 0; j < _this.length - 1 - i; j++) {
                     if (_this[j] > _this[j + 1]) {
                         swap(_this, j, j + 1);
-
                         console.log(flag,'00000')
+                        //只要有交换，就说明没有排好序，如果没有进到这个函数，
+                        //则说明不需要交换顺序，说明已经排好了
                         flag = true;
                     }
                 }
@@ -31,6 +39,9 @@
                 if (!flag) {
                     break
                 }
+                //flag=false是优化的关键，如果不写这个[1, 2, 3, 6, 5]这样
+                //的数组，第一轮比较4次就可以排好序，此时flag=true;第二轮本来
+                //不需要再比较了，但是此时flag在第一轮比较时置为true了，所以，如果不手动置为true，相当于没优化，还是会继续循环比较，所以，在下面还要设置一下flag = false
                 flag = false;
                 console.log(flag,'2222222')
             }
@@ -39,7 +50,7 @@
 
         // let arr = [1, 2, 3, 6, 7];
         // let arr = [1, 2, 3, 7, 6];
-        let arr = [12, 8, 24, 16, 1];SVGFEGaussianBlurElement
+        let arr = [12, 8, 24, 16, 1];
         arr.bubble();
         console.log(arr);
     </script>
