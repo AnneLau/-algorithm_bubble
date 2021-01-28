@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T23:38:38.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="Z52jYLeN2hjat-pjn55Y" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-28T23:43:06.815Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="2smzJ3xmPb6yoqk4VI2J" version="14.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2246" dy="349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2144" dy="289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -404,14 +404,26 @@
         <mxCell id="WNenemu_XjMESYAotVy--149" value="Module" style="whiteSpace=wrap;html=1;fontSize=18;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1130" y="918.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WNenemu_XjMESYAotVy--151" value="点击送审出toast+文本框标红+错误信息展示" style="whiteSpace=wrap;html=1;fontSize=18;strokeColor=#d6b656;strokeWidth=2;fillColor=#fff2cc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="141" y="760" width="230" height="60" as="geometry" />
+        <mxCell id="WNenemu_XjMESYAotVy--151" value="点击送审出toast：文本框标红+自动生成是否可点击+错误信息展示" style="whiteSpace=wrap;html=1;fontSize=18;strokeColor=#d6b656;strokeWidth=2;fillColor=#fff2cc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="720" width="350" height="90" as="geometry" />
         </mxCell>
         <mxCell id="WNenemu_XjMESYAotVy--153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WNenemu_XjMESYAotVy--152" target="WNenemu_XjMESYAotVy--140">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WNenemu_XjMESYAotVy--152" value="交互事件，校验信息配置" style="whiteSpace=wrap;html=1;fontSize=18;strokeColor=#d6b656;strokeWidth=2;fillColor=#fff2cc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="1080" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WNenemu_XjMESYAotVy--155" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=18;entryX=0.453;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WNenemu_XjMESYAotVy--134">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-310" y="666" as="sourcePoint" />
+            <mxPoint x="-260" y="616" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WNenemu_XjMESYAotVy--156" value="点击生成直达链接，相互转换" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="WNenemu_XjMESYAotVy--155">
+          <mxGeometry x="0.1298" y="-4" relative="1" as="geometry">
+            <mxPoint x="136.37" y="6.55" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
