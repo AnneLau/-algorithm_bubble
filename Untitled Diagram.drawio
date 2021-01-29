@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T00:01:18.513Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="LedanmPsXlasU6dBDahE" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-29T00:04:58.608Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="D_q6lEOG4sg0XNpVi1Tk" version="14.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3799" dy="1265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -445,6 +445,18 @@
             <mxPoint x="1376.5000000000005" y="949.7500000000001" as="sourcePoint" />
             <mxPoint x="1540" y="949.5799999999996" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WNenemu_XjMESYAotVy--167" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1090" y="1384" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WNenemu_XjMESYAotVy--175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WNenemu_XjMESYAotVy--168" target="WNenemu_XjMESYAotVy--174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNenemu_XjMESYAotVy--168" value="在编辑或复制页面时劫持数据库里面的&lt;br&gt;docData,对其改造，添加上新增property和config" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1120" y="1389" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WNenemu_XjMESYAotVy--174" value="历史数据兼容" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1010" y="1190" width="230" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
