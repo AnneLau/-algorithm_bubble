@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T15:37:24.174Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="fEiYhukkw-9J0vhPutL9" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-31T16:06:45.969Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="CTT6qFiFNqme9byTzMtE" version="14.2.7" type="github">
   <diagram id="C2GKbmR1wlr19nwTwssI" name="Page-1">
     <mxGraphModel dx="1773" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,10 +21,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jthrMaHgNZJ5E-PV2cZW-6" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;购买链接为空&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="180" y="180" width="130" height="100" as="geometry" />
+          <mxGeometry x="180" y="210" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jthrMaHgNZJ5E-PV2cZW-7" value="Plug in lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="210" width="120" height="40" as="geometry" />
+          <mxGeometry x="470" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jthrMaHgNZJ5E-PV2cZW-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="jthrMaHgNZJ5E-PV2cZW-10" target="jthrMaHgNZJ5E-PV2cZW-11">
           <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
@@ -37,13 +37,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jthrMaHgNZJ5E-PV2cZW-10" value="Bulb&lt;br&gt;burned out?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="195" y="440" width="100" height="80" as="geometry" />
+          <mxGeometry x="180" y="480" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="jthrMaHgNZJ5E-PV2cZW-11" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="185" y="650" width="120" height="40" as="geometry" />
+          <mxGeometry x="185" y="750" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jthrMaHgNZJ5E-PV2cZW-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="460" width="120" height="40" as="geometry" />
+          <mxGeometry x="480" y="515" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jthrMaHgNZJ5E-PV2cZW-15" value="&lt;font style=&quot;font-size: 28px&quot;&gt;新建页面add&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-25" y="-5" width="170" height="30" as="geometry" />
@@ -52,7 +52,7 @@
           <mxGeometry x="400" y="40" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="jthrMaHgNZJ5E-PV2cZW-19" value="1.购买链接标红，出提示信息：请填写购买链接&#xa;2.生成直达链接不能点击&#xa;3.直达链接非必须，提示信息“请填写淘系直达链接”清除&#xa;" style="rounded=1;arcSize=10;dashed=1;strokeColor=#d6b656;fillColor=#fff2cc;dashPattern=8 3 1 3;strokeWidth=2;align=left;spacingTop=10;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="305" y="320" width="325" height="70" as="geometry" />
+          <mxGeometry x="305" y="340" width="325" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
