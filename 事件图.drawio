@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T15:33:20.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="PgdLJlDLz-mAyEMOnyuZ" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-31T15:36:48.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="bFcvZtuhFVOMEE9oJ6ZG" version="14.2.7" type="github">
   <diagram id="C2GKbmR1wlr19nwTwssI" name="Page-1">
     <mxGraphModel dx="1773" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,10 @@
           <mxGeometry x="-25" y="-5" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jthrMaHgNZJ5E-PV2cZW-17" value=" 1.生成直达链接不能点击为灰色disabled&#xa;  2.页面显示直达链接，直达链接为空&#xa;  3.自动生成的值为空，页面不显示" style="rounded=1;arcSize=10;dashed=1;strokeColor=#d6b656;fillColor=#fff2cc;dashPattern=8 3 1 3;strokeWidth=2;align=left;spacingTop=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="320" width="240" height="70" as="geometry" />
+          <mxGeometry x="400" y="40" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jthrMaHgNZJ5E-PV2cZW-19" value="1.购买链接标红，出提示信息：请填写购买链接&#xa;2.生成直达链接不能点击&#xa;3.直达链接非必须，提示信息“请填写淘系直达链接”清除&#xa;" style="rounded=1;arcSize=10;dashed=1;strokeColor=#d6b656;fillColor=#fff2cc;dashPattern=8 3 1 3;strokeWidth=2;align=left;spacingTop=10;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="305" y="320" width="325" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
