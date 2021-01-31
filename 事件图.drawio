@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T21:13:16.935Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="nqZVC1qDGKTuL-1Po30_" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-31T21:16:25.988Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="isYJvLJd8PGnDgi5c6YR" version="14.2.7" type="github">
   <diagram id="C2GKbmR1wlr19nwTwssI" name="Page-1">
     <mxGraphModel dx="1113" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,11 +26,6 @@
         <mxCell id="jthrMaHgNZJ5E-PV2cZW-7" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;1.购买链接标红，出提示信息：请填写购买链接&lt;br&gt;&lt;/span&gt;&lt;span&gt;2.生成直达链接不能点击&lt;br&gt;&lt;/span&gt;3.直达链接非必须，提示信息“请填写淘系直达链接”清除&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;align=left;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="435" y="220" width="365" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jthrMaHgNZJ5E-PV2cZW-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="jthrMaHgNZJ5E-PV2cZW-10" target="jthrMaHgNZJ5E-PV2cZW-11">
-          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="jthrMaHgNZJ5E-PV2cZW-9" value="&lt;span style=&quot;font-size: 16px&quot;&gt;否&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="jthrMaHgNZJ5E-PV2cZW-10">
           <mxGeometry y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
@@ -41,7 +36,7 @@
           <mxGeometry x="140" y="480" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="jthrMaHgNZJ5E-PV2cZW-11" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="185" y="750" width="120" height="40" as="geometry" />
+          <mxGeometry x="175" y="1260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jthrMaHgNZJ5E-PV2cZW-15" value="&lt;font style=&quot;font-size: 28px&quot;&gt;新建页面add&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="-160" width="170" height="30" as="geometry" />
@@ -51,6 +46,34 @@
         </mxCell>
         <mxCell id="jthrMaHgNZJ5E-PV2cZW-23" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;ol&gt;&lt;li&gt;&lt;span&gt;购买链接标红&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;出提示信息：请输入正确的URL地址&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;生成直达链接不能点击&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;align=left;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="495" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jthrMaHgNZJ5E-PV2cZW-28" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;购买链接是否为url&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="140" y="779.94" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jthrMaHgNZJ5E-PV2cZW-29" value="&lt;font style=&quot;font-size: 16px&quot;&gt;否&lt;/font&gt;" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" target="jthrMaHgNZJ5E-PV2cZW-28" parent="1">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="245" y="609.94" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="245" y="589.94" />
+              <mxPoint x="245" y="589.94" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jthrMaHgNZJ5E-PV2cZW-30" value="&lt;span style=&quot;font-size: 16px&quot;&gt;否&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" source="jthrMaHgNZJ5E-PV2cZW-28" parent="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="480" y="834.94" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jthrMaHgNZJ5E-PV2cZW-31" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="889.94" as="sourcePoint" />
+            <mxPoint x="245" y="989.94" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jthrMaHgNZJ5E-PV2cZW-32" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;ol&gt;&lt;li&gt;&lt;span&gt;购买链接标红&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;出提示信息：请输入正确的URL地址&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;生成直达链接不能点击&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=2;shadow=0;align=left;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="794.94" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
