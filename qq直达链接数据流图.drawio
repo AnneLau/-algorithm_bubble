@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-09T01:41:35.471Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="CRZKkviBRfRqeghoKhZT" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-09T01:42:53.191Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="QKsPEDrPCcO9h0OeIuPj" version="14.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="7567" dy="4153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8477" dy="4792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -431,11 +431,17 @@
             <mxPoint x="2080" y="948" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8bZSMwI0g8y9zJHtoblz-172" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#857135;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8bZSMwI0g8y9zJHtoblz-165" target="8bZSMwI0g8y9zJHtoblz-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8bZSMwI0g8y9zJHtoblz-165" value="保存或送审" style="whiteSpace=wrap;html=1;fontSize=18;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1840" y="918" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8bZSMwI0g8y9zJHtoblz-169" value="json_code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1980" y="920" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8bZSMwI0g8y9zJHtoblz-171" value="QQ群号的校验提示" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;strokeColor=#6c8ebf;strokeWidth=2;fillColor=#dae8fc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1810" y="760" width="180" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
