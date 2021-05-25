@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T22:38:53.930Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.12" etag="c7Wscpez6itPEmkF1S_g" type="github"><diagram id="8Q8xeb0HI0jWzQi8_LTv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-25T22:54:00.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="LZ_LajAA4oLoZbOl1YG9" version="14.6.12" type="github">
+  <diagram id="8Q8xeb0HI0jWzQi8_LTv" name="Page-1">
+    <mxGraphModel dx="987" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="urFDt2Ocu5OXnpa5XnNP-2" target="urFDt2Ocu5OXnpa5XnNP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-10" value="相当于自己从接口post数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="urFDt2Ocu5OXnpa5XnNP-5">
+          <mxGeometry x="-0.1" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;用户埋点&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-3" value="&lt;font style=&quot;font-size: 24px&quot;&gt;cheka的数据流程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="urFDt2Ocu5OXnpa5XnNP-4" target="urFDt2Ocu5OXnpa5XnNP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-8" value="劫持各种上报事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="urFDt2Ocu5OXnpa5XnNP-7">
+          <mxGeometry x="-0.225" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;cheka&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="urFDt2Ocu5OXnpa5XnNP-6" target="urFDt2Ocu5OXnpa5XnNP-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="400" />
+              <mxPoint x="300" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-6" value="&lt;font style=&quot;font-size: 14px&quot;&gt;cheka服务端日志落在磁盘上，一条条存在表里&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="370" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-11" value="&lt;font style=&quot;font-size: 14px&quot;&gt;hubble&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="urFDt2Ocu5OXnpa5XnNP-6" target="urFDt2Ocu5OXnpa5XnNP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-18" value="&lt;font style=&quot;font-size: 14px&quot;&gt;cheka服务端日志落在磁盘上&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
