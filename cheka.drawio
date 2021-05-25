@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T22:55:48.610Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="jZkYBe4rjDsta1kwj5qu" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T23:05:11.387Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="VYhMZo1gHwx-VCcIwBe-" version="14.6.12" type="github">
   <diagram id="8Q8xeb0HI0jWzQi8_LTv" name="Page-1">
     <mxGraphModel dx="987" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,6 +48,38 @@
         </mxCell>
         <mxCell id="urFDt2Ocu5OXnpa5XnNP-18" value="&lt;span style=&quot;font-size: 14px&quot;&gt;D+&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="340" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="urFDt2Ocu5OXnpa5XnNP-21" target="urFDt2Ocu5OXnpa5XnNP-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="340" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="urFDt2Ocu5OXnpa5XnNP-22" target="urFDt2Ocu5OXnpa5XnNP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-28" value="两个平台可以查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="urFDt2Ocu5OXnpa5XnNP-25">
+          <mxGeometry x="-0.592" y="3" relative="1" as="geometry">
+            <mxPoint x="3" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-22" value="把cheka的日志落在数据库的表里" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="628" y="370" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-24" value="http://adlog.biz.weibo.com&lt;br&gt;实时" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="478" y="150" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="290" as="sourcePoint" />
+            <mxPoint x="900" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-27" value="" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="790" y="150" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
