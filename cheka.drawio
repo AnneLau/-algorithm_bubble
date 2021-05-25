@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T23:21:47.365Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="9l6BDzIcOFqQXkY9Ce_5" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-25T23:26:04.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="rbspl9BBCaqE4NcLUV4N" version="14.6.12" type="github">
   <diagram id="8Q8xeb0HI0jWzQi8_LTv" name="Page-1">
-    <mxGraphModel dx="1118" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1118" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,7 +73,7 @@
           <mxGeometry x="628" y="370" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="urFDt2Ocu5OXnpa5XnNP-24" value="http://adlog.biz.weibo.com&lt;br&gt;实时" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="478" y="205" width="180" height="60" as="geometry" />
+          <mxGeometry x="827" y="210" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="urFDt2Ocu5OXnpa5XnNP-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -84,11 +84,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="urFDt2Ocu5OXnpa5XnNP-27" value="http://hubble.biz.weibo.com/#/login" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="730" y="205" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="urFDt2Ocu5OXnpa5XnNP-34" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); text-align: left;&quot;&gt;SELECT&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); text-align: left;&quot;&gt;dt as days,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); text-align: left;&quot;&gt;COUNT(IF(type=&#39;page.view&#39;, 1, null)) as pv,&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); text-align: left;&quot;&gt;COUNT(IF(type=&#39;conversion&#39; AND get_json_object(context, &#39;$.event_type&#39;) = &#39;shopping&#39;, 1, null)) as shopping_count&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); text-align: left;&quot;&gt;FROM dplus_dwd.dwd_log_wb_ad_cheka_event_day&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); text-align: left;&quot;&gt;WHERE dt &amp;gt;= &#39;20201209&#39; AND dt &amp;lt;= &#39;20201210&#39; AND get_json_object(context, &#39;$.page.url&#39;) LIKE &#39;%lingdong.biz.weibo.com%&#39;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); text-align: left;&quot;&gt;GROUP BY dt&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); text-align: left;&quot;&gt;ORDER BY dt&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="85" y="490" width="780" height="130" as="geometry" />
+        <mxCell id="urFDt2Ocu5OXnpa5XnNP-27" value="http://hubble.biz.weibo.com" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="520" y="210" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="urFDt2Ocu5OXnpa5XnNP-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
